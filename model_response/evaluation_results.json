@@ -1,0 +1,89 @@
+[
+  {
+    "file": "chatgpt_5_mini_response.csv",
+    "total_rows": 160,
+    "text_metrics": {
+      "bleu": 0.2886147785292847,
+      "rouge1": 0.43379441530336676,
+      "rouge2": 0.23151867960256114,
+      "rougeL": 0.4198818991022476
+    },
+    "label_metrics": {
+      "accuracy": 0.65625,
+      "macro_precision": 0.6387997623291741,
+      "macro_recall": 0.5833333333333334,
+      "macro_f1": 0.5569538898193869,
+      "weighted_precision": 0.7186497326203208,
+      "weighted_recall": 0.65625,
+      "weighted_f1": 0.6265731260468103
+    },
+    "cost_time_metrics": {
+      "total_price": 0.23439999999999941,
+      "avg_price": 0.0014649999999999963,
+      "min_price": 0.00084125,
+      "max_price": 0.00268825,
+      "total_time": 1501.5790543556213,
+      "avg_time": 9.384869089722633,
+      "min_time": 4.32825231552124,
+      "max_time": 26.68770432472229
+    }
+  },
+  {
+    "file": "gemini_2.5_flash_lite_response.csv",
+    "total_rows": 160,
+    "text_metrics": {
+      "bleu": 0.21127902758541764,
+      "rouge1": 0.3521459582084582,
+      "rouge2": 0.19318651608053783,
+      "rougeL": 0.34225068191612307
+    },
+    "label_metrics": {
+      "accuracy": 0.6540880503144654,
+      "macro_precision": 0.7360270712315906,
+      "macro_recall": 0.6539473684210526,
+      "macro_f1": 0.6119364875843257,
+      "weighted_precision": 0.7343668641324183,
+      "weighted_recall": 0.6540880503144654,
+      "weighted_f1": 0.6109160029251889
+    },
+    "cost_time_metrics": {
+      "total_price": 0.0877945999999991,
+      "avg_price": 0.0005487162499999943,
+      "min_price": 0.0,
+      "max_price": 0.0008274,
+      "total_time": 194.40435099601746,
+      "avg_time": 1.222668874188789,
+      "min_time": 0.6709620952606201,
+      "max_time": 2.786082983016968
+    }
+  },
+  {
+    "file": "qwen3_14B_response.csv",
+    "total_rows": 160,
+    "text_metrics": {
+      "bleu": 0.20133330607530545,
+      "rouge1": 0.2976089494655671,
+      "rouge2": 0.12047178515928517,
+      "rougeL": 0.2918500208941385
+    },
+    "label_metrics": {
+      "accuracy": 0.675,
+      "macro_precision": 0.7402492454937207,
+      "macro_recall": 0.675,
+      "macro_f1": 0.6476325982575982,
+      "weighted_precision": 0.7402492454937207,
+      "weighted_recall": 0.675,
+      "weighted_f1": 0.6476325982575982
+    },
+    "cost_time_metrics": {
+      "total_price": 0.0,
+      "avg_price": 0.0,
+      "min_price": 0.0,
+      "max_price": 0.0,
+      "total_time": 249.81923866271973,
+      "avg_time": 1.5613702416419983,
+      "min_time": 0.7982807159423828,
+      "max_time": 2.5424325466156006
+    }
+  }
+]

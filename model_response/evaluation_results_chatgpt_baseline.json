@@ -1,0 +1,60 @@
+[
+  {
+    "file": "gemini_2.5_flash_lite_response.csv",
+    "total_rows": 160,
+    "text_metrics": {
+      "bleu": 0.255074984500759,
+      "rouge1": 0.39581952565408446,
+      "rouge2": 0.20769027208171945,
+      "rougeL": 0.38333121739371745
+    },
+    "label_metrics": {
+      "accuracy": 0.7547169811320755,
+      "macro_precision": 0.6554930502584965,
+      "macro_recall": 0.6024833554245319,
+      "macro_f1": 0.6034526321348026,
+      "weighted_precision": 0.7738491189691482,
+      "weighted_recall": 0.7547169811320755,
+      "weighted_f1": 0.7511936901142692
+    },
+    "cost_time_metrics": {
+      "total_price": 0.0877945999999991,
+      "avg_price": 0.0005487162499999943,
+      "min_price": 0.0,
+      "max_price": 0.0008274,
+      "total_time": 194.40435099601746,
+      "avg_time": 1.222668874188789,
+      "min_time": 0.6709620952606201,
+      "max_time": 2.786082983016968
+    }
+  },
+  {
+    "file": "qwen3_14B_response.csv",
+    "total_rows": 160,
+    "text_metrics": {
+      "bleu": 0.22617655857794347,
+      "rouge1": 0.29676918658826557,
+      "rouge2": 0.12186398225097914,
+      "rougeL": 0.2887582738898528
+    },
+    "label_metrics": {
+      "accuracy": 0.7375,
+      "macro_precision": 0.5809853308803525,
+      "macro_recall": 0.5932808476926125,
+      "macro_f1": 0.5836944447550659,
+      "weighted_precision": 0.7502908031785006,
+      "weighted_recall": 0.7375,
+      "weighted_f1": 0.7390590102879127
+    },
+    "cost_time_metrics": {
+      "total_price": 0.0,
+      "avg_price": 0.0,
+      "min_price": 0.0,
+      "max_price": 0.0,
+      "total_time": 249.81923866271973,
+      "avg_time": 1.5613702416419983,
+      "min_time": 0.7982807159423828,
+      "max_time": 2.5424325466156006
+    }
+  }
+]
